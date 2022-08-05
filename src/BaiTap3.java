@@ -1,12 +1,6 @@
-import java.util.Scanner;
-
-public class BaiTap2 {
+public class BaiTap3 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập vào số 20:");
-        int count = scanner.nextInt();
-
-        for (int number=2; number<=count ;number++) {
+        for (int number=2; number<=100 ;number++) {
             int i=2;
             boolean check = true;
             while (i <= Math.sqrt(number)) {
